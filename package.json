@@ -1,0 +1,34 @@
+{
+  "name": "now-php-extra",
+  "version": "0.0.4",
+  "description": "PHP builder for Now 2.0 with extra extensions and Composer support.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sebas5384/now-php-extra.git"
+  },
+  "author": "Sebastian Ferrari <sebas5384@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sebas5384/now-php-extra/issues"
+  },
+  "homepage": "https://github.com/sebas5384/now-php-extra#readme",
+  "devDependencies": {
+    "eslint": "^5.11.1",
+    "eslint-config-taller": "^2.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-standard": "^4.0.0"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "fs-extra": "^7.0.1",
+    "php-bridge-extra": "0.4.13-canary.25"
+  },
+  "peerDependencies": {
+    "@now/build-utils": "^0.4.31"
+  }
+}
